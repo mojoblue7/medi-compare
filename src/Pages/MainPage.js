@@ -9,6 +9,7 @@ class MainPage extends Component {
         <IndexHeader />
         <div className="main_page_content_wrapper">
           <div className="main_page_title">Data Compare App</div>
+          <div className="main_page_button">button</div>
         </div>
       </div>
     );
