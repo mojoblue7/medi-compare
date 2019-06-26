@@ -1,0 +1,11 @@
+@import "../../Pages/MainPage.scss";
+.IndexHeader{
+    .index_header_wrapper{
+        &.header{
+            flex:1;
+            background: #AEBFBE;
+            height: 70px;
+            width: 100vw;
+        }
+    }
+}
