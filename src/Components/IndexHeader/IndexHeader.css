@@ -4,17 +4,21 @@
   background-color: #e0f2f1;
   height: 100vh;
   width: 100vw; }
-
-.MainPage .main_page_content_wrapper {
-  background-color: blue;
-  margin: 5% 20% 5% 20%;
-  padding: 5% 10% 5% 10%;
-  flex: 1; }
-
-.MainPage .main_page_content_wrapper .main_page_title {
-  font-size: 2.5rem;
-  text-align: center;
-  font-family: "Nanum Gothic"; }
+  .MainPage .main_page_content_wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #6363b9;
+    margin: 5% 200px 50px 200px;
+    padding: 5% 10% 5% 10%;
+    flex: 1; }
+    .MainPage .main_page_content_wrapper .main_page_title {
+      flex: 1;
+      font-size: 2.5rem;
+      text-align: center;
+      font-family: "Nanum Gothic"; }
+    .MainPage .main_page_content_wrapper .button {
+      flex: 1;
+      align-content: center; }
 
 .IndexHeader .index_header_wrapper.header {
   flex: 1;
